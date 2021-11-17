@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Comprar camiseta</h1>
+    <form action="http://httpbin.org/post" method="post">
+        <div>
+            <label for="nombre">nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="email">email:</label><br>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="talla">talla</label>
+            <select id="talla" name="talla">
+                <option value="xs">XS</option>
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+                <option value="xxl">XXL</option>
+
+            </select>
+            <h3>Tipo de camiseta</h3>
+            <input type="radio" name="Tipo_disfraz" value="1" id="tipo_infantil"> <label
+                for="tipo_infantil">Infantil</label><br>
+            <input type="radio" name="Tipo_disfraz" value="2" id="tipo_adulto"> <label
+                for="tipo_adulto">Adulto</label><br>
+            <h3>Complementos para la camiseta</h3>
+            <input type="checkbox" id="nombre" name="nombre">
+            <label for="nombre"> Nombre en la camiseta</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <input type="checkbox" id="numero" name="numero">
+            <label for="nombre"> Numero en la camiseta</label><br>
+            <input type="text" id="numero" name="numero"><br>
+            <h3>Equipo a elegir</h3>
+            <input type="radio" name="Equipo_elegir" value="1" id="equipo_RealMadrid"> <label
+                for="equipo_RealMadrid">Real Madrid</label><br>
+                <a href="https://shop.realmadrid.com/">Ver la camiseta del Real Madrid</a><br>
+                <input type="radio" name="Equipo_elegir" value="1" id="equipo_FCBarcelona"> <label
+                for="equipo_FCBarcelona">FC Barcelona</label><br>
+                <a href="https://store.fcbarcelona.com/es/">Ver la camiseta del FC Barcelona</a><br>
+                <input type="radio" name="Equipo_elegir" value="1" id="equipo_ACMilan"> <label
+                for="equipo_ACMilan">AC Milan</label><br>
+                <a href="https://store.acmilan.com/en/">Ver la camiseta del AC Milan</a><br>
+                <input type="radio" name="Equipo_elegir" value="1" id="equipo_RealBetis"> <label
+                for="equipo_RealBetis">Real Betis</label><br>
+                <a href="https://shop.realbetisbalompie.es/es/">Ver la camiseta del Real Betis</a><br>
+                <input type="radio" name="Equipo_elegir" value="1" id="equipo_RealZaragoza"> <label
+                for="equipo_RealZaragoza">Real Zaragoza</label><br>
+                <a href="https://tienda.realzaragoza.com/">Ver la camiseta del Real Zaragoza</a><br>
+                <input type="radio" name="Equipo_elegir" value="1" id="equipo_AtleticodeMadrid"> <label
+                for="equipo_AtleticodeMadrid">Atletico de Madrid</label><br>
+                <a href="https://shop.atleticodemadrid.com/es/">Ver la camiseta del Atletico de Madrid</a><br>
+                <input type="radio" name="Equipo_elegir" value="1" id="equipo_PSG"> <label
+                for="equipo_PSG">PSG</label><br>
+                <a href="https://store.psg.fr/es/">Ver la camiseta del PSG</a><br>
+                <input type="radio" name="Equipo_elegir" value="1" id="equipo_Liverpool"> <label
+                for="equipo_Liverpool">Liverpool</label><br>
+                <a href="https://store.liverpoolfc.com/es/">Ver la camiseta del Liverpool</a><br>
+            <h3>Fecha de compra</h3>
+            <label for="fecha_compra">Dia de compra de la camiseta</label>
+            <input type="date" id="fecha_compra" name="fecha_compra"><br><br>
+            <label for="fecha_llegada">Dia que quiere que le llegue la camiseta</label>
+            <input type="date" id="fecha_llegada" name="fecha_llegada">
+            <br><br><input type="submit" value="Reservar">
+    </form>
+    <a href="../Index.html">Volver pagina principal</a><br>
+</body>
+
+</html>
